@@ -27,6 +27,8 @@ Hey, I am Avadhut and I have been working as a Corporate Trainer since 2017. I'm
 - Apache ZooKeeper
 - Red Hat Fuse - 7.x and 6.x
 
+## Rich Skills-set that can help you to achieve your enterprise goals
+
  Primary Programming Skills             | Core Java, Spring, Spring Boot, Apache Camel, Spring Batch, Apache Blueprint, Apache Maven 
  Database Skills                        | SQL, Oracle, HP-Vertica, Apache Derby                                                      
  NoSQL Databases                        | MongoDB, Apache Cassandra                                                                  
