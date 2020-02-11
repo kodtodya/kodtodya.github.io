@@ -76,6 +76,3 @@ Baner, Pune, Maharashtra, India
 [+91-82-3737-9497](callto:+91-82-3737-9497)
 
 Baner, Pune, Maharashtra, India
-
-©2019 by [kodtodya-talks](https://kodtodya.github.io/)
-
