@@ -27,29 +27,24 @@ Hey, I am Avadhut and I have been working as a Corporate Trainer since 2017. I'm
 - Apache ZooKeeper
 - Red Hat Fuse - 7.x and 6.x
 
-```markdown
 
-My skillset
-
-| Primary Programming Skills             | Core Java, Spring, Spring Boot, Apache Camel, Spring Batch, Apache Blueprint, Apache Maven |
-|----------------------------------------|--------------------------------------------------------------------------------------------|
-| Database Skills                        | SQL, Oracle, HP-Vertica, Apache Derby                                                      |
-| NoSQL Databases                        | MongoDB, Apache Cassandra                                                                  |
-| Messaging and JMS Brokers              | Apache ActiveMQ, Apache ActiveMQ Artemis, HornetQ, WebSphere MQ, Tibco EMS, Apache Kafka   |
-| Architectural Skills                   | Design Patterns                                                                            |
-| Cloud Skills                           | Red Hat OpenShift                                                                          |
-| Cloud-native frameworks                | Quarkus                                                                                    |
-| Distributed Systems Management         | Apache ZooKeeper, Apache Fabric                                                            |
-| Runtime Containers                     | Apache Karaf, Fuse container, Fabric container, A-MQ container                             |
-| Logging Skills                         | Apache Log4j, Apache LogBack, Apache slf4j                                                 |
-| Middleware Integration Skills          | RedHat JBoss Fuse, RedHat JBoss EAP, RedHat JBoss A-MQ                                     |
-| Version Controlling Skills             | Git, Tortoise SVN, IBM ClearCase, BitBucket                                                |
-| Operating Systems Skills               | Red Hat Enterprise Linux-6+, CentOS-7+, Fedora-24+, Windows-X                              |
-| Unit & Automation Testing Skills       | Junit, Cucumber, Behavioral Driven Development, CodePro                                    |
-| Data Mapping Skills                    | XML, JSON                                                                                  |
-| Other IDEs &amp; Troubleshooting Tools | IntelliJ, JBDS, Eclipse, IBM Integration Bus, Memory Analyzer Tool, Samura                 |
-
-```
+ Primary Programming Skills             | Core Java, Spring, Spring Boot, Apache Camel, Spring Batch, Apache Blueprint, Apache Maven 
+----------------------------------------|--------------------------------------------------------------------------------------------
+ Database Skills                        | SQL, Oracle, HP-Vertica, Apache Derby                                                      
+ NoSQL Databases                        | MongoDB, Apache Cassandra                                                                  
+ Messaging and JMS Brokers              | Apache ActiveMQ, Apache ActiveMQ Artemis, HornetQ, WebSphere MQ, Tibco EMS, Apache Kafka   
+ Architectural Skills                   | Design Patterns                                                                            
+ Cloud Skills                           | Red Hat OpenShift                                                                          
+ Cloud-native frameworks                | Quarkus                                                                                    
+ Distributed Systems Management         | Apache ZooKeeper, Apache Fabric                                                            
+ Runtime Containers                     | Apache Karaf, Fuse container, Fabric container, A-MQ container                             
+ Logging Skills                         | Apache Log4j, Apache LogBack, Apache slf4j                                                 
+ Middleware Integration Skills          | RedHat JBoss Fuse, RedHat JBoss EAP, RedHat JBoss A-MQ                                     
+ Version Controlling Skills             | Git, Tortoise SVN, IBM ClearCase, BitBucket                                                
+ Operating Systems Skills               | Red Hat Enterprise Linux-6+, CentOS-7+, Fedora-24+, Windows-X                              
+ Unit & Automation Testing Skills       | Junit, Cucumber, Behavioral Driven Development, CodePro                                    
+ Data Mapping Skills                    | XML, JSON                                                                                  
+ Other IDEs &amp; Troubleshooting Tools | IntelliJ, JBDS, Eclipse, IBM Integration Bus, Memory Analyzer Tool, Samura                 
 
 For more details see [Work at GitHub Repository](https://github.com/kodtodya/).
 
