@@ -27,9 +27,7 @@ Hey, I am Avadhut and I have been working as a Corporate Trainer since 2017. I'm
 - Apache ZooKeeper
 - Red Hat Fuse - 7.x and 6.x
 
-
  Primary Programming Skills             | Core Java, Spring, Spring Boot, Apache Camel, Spring Batch, Apache Blueprint, Apache Maven 
-----------------------------------------|--------------------------------------------------------------------------------------------
  Database Skills                        | SQL, Oracle, HP-Vertica, Apache Derby                                                      
  NoSQL Databases                        | MongoDB, Apache Cassandra                                                                  
  Messaging and JMS Brokers              | Apache ActiveMQ, Apache ActiveMQ Artemis, HornetQ, WebSphere MQ, Tibco EMS, Apache Kafka   
@@ -68,14 +66,15 @@ Do you feel like you are always adding new tasks to your to-do list but never cr
 ## Schedule a Session 
 Want to hear more about how I can transform your IT skill set? Contact me today to schedule a session.
 
-Baner, Pune, Maharashtra, India
-
 [kodtodya-talks](mailto:kodtodya.talks@gmail.com) | [+91-82-3737-9497](callto:+91-82-3737-9497)
+
+Baner, Pune, Maharashtra, India
 
 ### Contact Us
 
 [kodtodya-talks](mailto:kodtodya.talks@gmail.com)
 [+91-82-3737-9497](callto:+91-82-3737-9497)
+
 Baner, Pune, Maharashtra, India
 
 ©2019 by [kodtodya-talks](https://kodtodya.github.io/)
