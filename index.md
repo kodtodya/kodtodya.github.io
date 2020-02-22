@@ -3,7 +3,7 @@
 
 ### Spot-light to your IT career
 
-Hello from kodtodya-talks. I'm a coaching professional who is here to help you reach a goal or make a change in your professional life. I believe you can achive your career goals with our technical coaching services, and ejnoy a new outlook in career. For more information about these sevices and what i can do for you, please browse through my website and do not hesitate reaching out with any questions.
+Hello from kodtodya-talks. I'm a coaching professional who is here to help you reach a goal or make a change in your professional life. I believe you can achive your career goals with our technical coaching services, and enjoy a new outlook in career. For more information about these sevices and what i can do for you, please browse through my website and do not hesitate reaching out with any questions.
 
 [Get in touch](mailto:kodtodya.talks@gmail.com)
 
@@ -26,6 +26,7 @@ Hey, I am Avadhut and I have been working as a Corporate Trainer since 2017. I'm
 - Apache Kafka
 - Apache ZooKeeper
 - Red Hat Fuse - 7.x and 6.x
+- Behavior Driven Development(BDD) with Cucumber
 
 ## Rich Skills-set that can help you to achieve your enterprise goals
 
