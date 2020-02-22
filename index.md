@@ -69,6 +69,6 @@ Do you feel like you are always adding new tasks to your to-do list but never cr
 ## Contact Us to Schedule a Session 
 Want to hear more about how I can transform your IT skill set? Contact me today to schedule a session.
 
-[kodtodya-talks](mailto:kodtodya.talks@gmail.com) | [+91-82-3737-9497](callto:+91-82-3737-9497)
+[kodtodya-talks](mailto:kodtodya.talks@gmail.com) | [+91-82-3737-9497](tel:+91-82-3737-9497)
 
 Baner, Pune, Maharashtra, India
