@@ -13,6 +13,10 @@ Hello from kodtodya-talks. I'm a coaching professional who is here to help you r
 
 Hey, I am Avadhut and I have been working as a Corporate Trainer since 2017. I'm enriched with 8+ years of experience in IT industry. I specialize in helping people to learn most of the open-source technologies. I take great pride in the progress and success of my clients, and look forward to helping you. Get in touch to learn more.
 
+### Solutioning architect and consultant
+
+As you get some glimpse about me from corporate training perspective. I also take pride in architecture review, consultation for various open-source technologies and always try to find a reason to learn something latest; something interesting and more importantly something open-source. I work with few of my clients to make interesting software development.
+As same as corporate training, even here, I take great pride in the progress and success of my clients, and look forward to helping you. Get in touch to learn more.
 
 ## Technology Training we offer 
 ### Experience in Action
