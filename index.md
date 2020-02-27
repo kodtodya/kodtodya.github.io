@@ -1,37 +1,43 @@
 
-## Enrich Your Technical Skills with kodtodya-talks
+## Avadhut Lele
 
-### Spot-light to your IT career
+### Solutions Architect, Consultant and Middleware Engineer
 
-Hello from kodtodya-talks. I'm a coaching professional who is here to help you reach a goal or make a change in your professional life. I believe you can achive your career goals with our technical coaching services, and enjoy a new outlook in career. For more information about these sevices and what i can do for you, please browse through my website and do not hesitate reaching out with any questions.
+Hello, my name is Avadhut and I'm enriched with around 9 years of experience in IT industry. I specialize in helping organisations to develop middleware integration and also deal with middleware integration issues. I love to code in open-source technologies. 
 
-[Get in touch](mailto:kodtodya.talks@gmail.com)
+### Summary
 
-## About Me
+- A dynamic professional with 8.7 years of experience in SDLC and Issue Resolution Arena as a Java & Middleware Integration Developer in Development of Java and middleware
+applications and enhancements
+- Proficient in grasping new technical concepts and utilizing the same in an effective
+manner.
+- Responsible for understanding the Requirement and Design documents.
+- An individual having comprehensive and conceptual knowledge about programming using Core Java, Spring, Spring Boot, RH Fuse, Apache Kafka, Spring Batch,
+OpenShift, SQL, jUnit and design patterns with efficient expertise in using technology to enhance data and information management.
+- A proactive learner with a flair for adopting emerging trends and addressing industry requirements to achieve organizational objectives & profitability norms.
+- Good knowledge of processes and work culture of CMMI-5 and product based companies
 
-### Trusted Coaching Professional
+## Experience chronicles
 
-Hey, I am Avadhut and I have been working as a Corporate Trainer since 2017. I'm enriched with 8+ years of experience in IT industry. I specialize in helping people to learn most of the open-source technologies. I take great pride in the progress and success of my clients, and look forward to helping you. Get in touch to learn more.
+Employer | Designation | Duration
 
-### Solutioning architect and consultant
+Citicorp Services India Private Limited | Officer | 14 th May, 2018 to till date
 
-As you get some glimpse about me from corporate training perspective, I am also enriched with 9+ years of experience in IT industry. I also take pride in architecture review, consultation for various open-source technologies and always try to find a reason to learn something latest; something interesting and more importantly something open-source. I work with few of my clients to make software development more interesting. As same like corporate training, I also celebrate the progress and success of my clients, and look forward to help you. Get in touch to learn more.
+Red Hat India Pvt. Ltd. | Software Maintenance Engineer | 6th June, 2016 to 4th May, 2018
 
-## Technology Training we offer 
-### Experience in Action
+Inautix Technologies India Private Limited(BNY Mellon Company) | Senior Applications Developer | 5th Jan, 2015 to 31st May, 2016
 
-- Java-11+
-- Spring
-- Spring Boot
-- Apache Camel
-- Apache ActiveMQ
-- Apache ActiveMQ Artemis
-- Apache Kafka
-- Apache ZooKeeper
-- Red Hat Fuse - 7.x and 6.x
-- Behavior Driven Development(BDD) with Cucumber
+IGATE Global Solutions Limited | Senior Software Engineer | 5th Sept,2011 to 29th Dec,2014
 
-## Rich Skills-set that can help you to achieve your enterprise goals
+## Educational Achievements
+
+Exam/Degree | Full/Part time | Course Name | Secialization | College/Institution | Duration | Result%
+Graduation | Full time | Bachelor in Computer Applications | Computer | Science Sangola College,Sangola [Solapur
+University] | 07/2008 to 07/2011 | 76.67%
+12th /HSC |  Full time | Higher Secondary Certificate | Commerce | Vidya Mandir Junior College, Sangola | 07/2007 to 05/2008 | 78.17%
+10th / SSC | Full time | Secondary School Certificate | NA | Shri. Sitaram Maharaj Vidyalaya, Khardi | 06/2005 to 06/2006 | 70.40% 
+
+## Technical skills
 
  Primary Programming Skills             | Core Java, Spring, Spring Boot, Apache Camel, Spring Batch, Apache Blueprint, Apache Maven 
  Database Skills                        | SQL, Oracle, HP-Vertica, Apache Derby                                                      
@@ -52,26 +58,7 @@ As you get some glimpse about me from corporate training perspective, I am also 
 
 For more details see [Work at GitHub Repository](https://github.com/kodtodya/).
 
-## Thought-Based Approach
-### Knowledge That Makes a Difference
-
-### Technical Skills Session
-
-This service is a favorite among many of my clients, as it is often times one of the keys to a happier, healthier and fun-filled work environment. My job is to give you the tools and techniques to achieve a balanced and fulfilling technical career in IT. After several sessions, you will become well-versed at handling technical issues whenever and wherever they arise. Call now to schedule a session.
-
-### Corporate Training Institutes Session
-
-Do you feel like you are always adding new tasks to your to-do list but never crossing anything out? My specialization will help guide and inspire you to achieve more of your professional goals. Get in touch today and start taking control of your professional life with my coaching tools and techniques.
-
-```
-“Talk is cheap; show me the code”
-
-- Linus Torvalds
-```
-
-## Contact Us to Schedule a Session 
-Want to hear more about how I can transform your IT skill set? Contact me today to schedule a session.
-
-[kodtodya-talks](mailto:kodtodya.talks@gmail.com) | [+91-82-3737-9497](tel:+91-82-3737-9497)
+## Contact
+[Click to Email: kodtodya-talks](mailto:kodtodya.talks@gmail.com) | [+91-82-3737-9497](tel:+91-82-3737-9497)
 
 Baner, Pune, Maharashtra, India
