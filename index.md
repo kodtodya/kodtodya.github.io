@@ -28,7 +28,7 @@ IGATE Global Solutions Limited                                 | Senior Software
 
 ## Educational Achievements
 
-Exam/Degree | Full/Part time | Course Name                       | Secialization | College/Institution                                  | Duration          | Result%
+Exam        | Full/Part time | Course Name                       | Secialization | College/Institution                                  | Duration          | Result%
 
 Graduation  | Full time      | Bachelor in Computer Applications | Computer      | Science Sangola College,Sangola [Solapur University] | 07/2008 to 07/2011 | 76.67%
 
