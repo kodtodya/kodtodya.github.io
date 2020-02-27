@@ -17,18 +17,14 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
 ## Experience chronicles
 
 Employer | Designation | Duration
-
 Citicorp Services India Private Limited | Officer | 14 th May, 2018 to till date
-
 Red Hat India Pvt. Ltd. | Software Maintenance Engineer | 6th June, 2016 to 4th May, 2018
-
 Inautix Technologies India Private Limited(BNY Mellon Company) | Senior Applications Developer | 5th Jan, 2015 to 31st May, 2016
-
 IGATE Global Solutions Limited | Senior Software Engineer | 5th Sept,2011 to 29th Dec,2014
 
 ## Educational Achievements
 
-Exam/Degree | Full/Part time | Course Name | Secialization | College/Institution | Duration | Result%
+Exam / Degree | Full/Part time | Course Name | Secialization | College/Institution | Duration | Result%
 Graduation | Full time | Bachelor in Computer Applications | Computer | Science Sangola College,Sangola [Solapur University] | 07/2008 to 07/2011 | 76.67%
 12th /HSC |  Full time | Higher Secondary Certificate | Commerce | Vidya Mandir Junior College, Sangola | 07/2007 to 05/2008 | 78.17%
 10th / SSC | Full time | Secondary School Certificate | NA | Shri. Sitaram Maharaj Vidyalaya, Khardi | 06/2005 to 06/2006 | 70.40% 
