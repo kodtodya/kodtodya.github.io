@@ -1,7 +1,4 @@
-
-## Avadhut Lele
-
-### Solutions Architect, Consultant and Middleware Engineer
+### Introduction
 
 Hello, my name is Avadhut and I'm enriched with around 9 years of experience in IT industry. I specialize in helping organisations to develop middleware integration and also deal with middleware integration issues. I love to code in open-source technologies. 
 
