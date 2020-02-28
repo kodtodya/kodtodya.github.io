@@ -18,7 +18,7 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
 
 | Employer | Designation | Duration |
 | --- | --- |
-| Citicorp Services India Private Limited | Officer | 14 th May, 2018 to till date |
+| Citicorp Services India Private Limited | Officer | 14 th May, 2018 to 19th Feb,2020 |
 | Red Hat India Pvt. Ltd. | Software Maintenance Engineer | 6th June, 2016 to 4th May, 2018 |
 | Inautix Technologies India Private Limited(BNY Mellon Company) | Senior Applications Developer | 5th Jan, 2015 to 31st May, 2016 |
 | IGATE Global Solutions Limited | Senior Software Engineer | 5th Sept,2011 to 29th Dec,2014 |
