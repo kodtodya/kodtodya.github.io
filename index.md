@@ -1,10 +1,10 @@
 ### Introduction
 
-Hello, my name is Avadhut and I'm enriched with around 9 years of experience in IT industry. I specialize in helping organisations to develop middleware integration and also deal with middleware integration issues. I love to code in open-source technologies. 
+Hello, my name is Avadhut and I'm enriched with around **9 years** of experience in IT industry. I specialize in helping organisations to develop middleware integration and also deal with middleware integration issues. I love to code in open-source technologies. 
 
 ### Summary
 
-- A dynamic professional with 8.7 years of experience in SDLC and Issue Resolution Arena as a Java & Middleware Integration Developer in Development of Java and middleware
+- A dynamic professional with experience in SDLC and Issue Resolution Arena as a Java & Middleware Integration Developer in Development of Java and middleware
 applications and enhancements
 - Proficient in grasping new technical concepts and utilizing the same in an effective
 manner.
@@ -51,8 +51,3 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
  Other IDEs &amp; Troubleshooting Tools | IntelliJ, JBDS, Eclipse, IBM Integration Bus, Memory Analyzer Tool, Samura                 
 
 For more details see [Work at GitHub Repository](https://github.com/kodtodya/).
-
-## Contact
-[Click to Email: kodtodya-talks](mailto:kodtodya.talks@gmail.com) | [+91-82-3737-9497](tel:+91-82-3737-9497)
-
-Baner, Pune, Maharashtra, India
