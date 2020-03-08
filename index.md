@@ -37,7 +37,7 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
  Database Skills                        | SQL, Oracle, HP-Vertica, Apache Derby                                                      
  NoSQL Databases                        | MongoDB, Apache Cassandra                                                                  
  Messaging and JMS Brokers              | Apache ActiveMQ, Apache ActiveMQ Artemis, HornetQ, WebSphere MQ, Tibco EMS, Apache Kafka   
- Architectural Skills                   | Design Patterns                                                                            
+ Architectural Skills                   | Design Patterns and Micro-services                                                                            
  Cloud Skills                           | Red Hat OpenShift                                                                          
  Cloud-native frameworks                | Quarkus                                                                                    
  Distributed Systems Management         | Apache ZooKeeper, Apache Fabric                                                            
@@ -48,6 +48,6 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
  Operating Systems Skills               | Red Hat Enterprise Linux-6+, CentOS-7+, Fedora-24+, Windows-X                              
  Unit & Automation Testing Skills       | Junit, Cucumber, Behavioral Driven Development, CodePro                                    
  Data Mapping Skills                    | XML, JSON                                                                                  
- Other IDEs &amp; Troubleshooting Tools | IntelliJ, JBDS, Eclipse, IBM Integration Bus, Memory Analyzer Tool, Samurai                 
+ Other IDEs &amp; Troubleshooting Tools | IntelliJ, RedHat CodeReady Studio, Eclipse, IBM Integration Bus, Memory Analyzer Tool, Samurai                 
 
 For more details see [Work at GitHub Repository](https://github.com/kodtodya/).
