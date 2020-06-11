@@ -18,6 +18,7 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
 
 | Employer | Designation | Duration |
 | --- | --- |
+| Patona Technologies Ltd | Sr. Integration Developer | 16th Mar, 2020 to till date |
 | Citicorp Services India Private Limited | Officer/Manager | 14 th May, 2018 to 19th Feb,2020 |
 | Red Hat Inc | Software Maintenance Engineer | 6th June, 2016 to 4th May, 2018 |
 | BNY Mellon Technologies | Senior Applications Developer | 5th Jan, 2015 to 31st May, 2016 |
