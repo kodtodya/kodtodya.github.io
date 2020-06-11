@@ -35,8 +35,8 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
 
 ## Technical skills
 
- Primary Programming Skills             | Core Java, Spring, Spring Boot, Apache Camel, Spring Batch, Apache Blueprint, Apache Maven 
- Database Skills                        | SQL, Oracle, HP-Vertica, Apache Derby                                                      
+ Primary Programming Skills             | Core Java(v8,v11), Spring, Spring Boot, Apache Camel, Apache Blueprint, Apache Maven, Spring Batch 
+ Database Skills                        | SQL, Oracle, Apache Derby, H2                                                      
  NoSQL Databases                        | MongoDB, Apache Cassandra                                                                  
  Messaging and JMS Brokers              | Apache ActiveMQ, Apache ActiveMQ Artemis, HornetQ, WebSphere MQ, Tibco EMS, Apache Kafka   
  Architectural Skills                   | Design Patterns and Micro-services                                                                            
@@ -44,10 +44,10 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
  Cloud-native frameworks                | Quarkus                                                                                    
  Distributed Systems Management         | Apache ZooKeeper, Apache Fabric                                                            
  Runtime Containers                     | Apache Karaf, Fuse container, Fabric container, A-MQ container                             
- Logging Skills                         | Apache Log4j, Apache LogBack, Apache slf4j                                                 
- Middleware Integration Skills          | RedHat JBoss Fuse, RedHat JBoss EAP, RedHat JBoss A-MQ                                     
+ Logging Skills                         | Elasticsearch, Kibana, Apache Log4j, Apache LogBack, Apache slf4j                         
+ Middleware Integration Skills          | RedHat JBoss Fuse, RedHat JBoss EAP, RedHat JBoss A-MQ, Spring Integration                   
  Version Controlling Skills             | Git, Tortoise SVN, IBM ClearCase, BitBucket                                                
- Operating Systems Skills               | Red Hat Enterprise Linux-6+, CentOS-7+, Fedora-24+, Windows-X                              
+ Operating Systems Skills               | Red Hat Enterprise Linux-6+, CentOS-7+, Fedora-24+, Ubuntu-19+, Windows-X                   
  Unit & Automation Testing Skills       | Junit, Cucumber, Behavioral Driven Development, CodePro                                    
  Data Mapping Skills                    | XML, JSON                                                                                  
  Other IDEs &amp; Troubleshooting Tools | IntelliJ, RedHat CodeReady Studio, Eclipse, IBM Integration Bus, Memory Analyzer Tool, Samurai                 
