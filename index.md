@@ -40,7 +40,7 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
  NoSQL Databases                        | MongoDB, Apache Cassandra                                                                  
  Messaging and JMS Brokers              | Apache ActiveMQ, Apache ActiveMQ Artemis, HornetQ, WebSphere MQ, Tibco EMS, Apache Kafka   
  Architectural Skills                   | Design Patterns and Micro-services                                                                            
- Cloud Skills                           | Red Hat OpenShift                                                                          
+ Cloud Skills                           | Red Hat OpenShift, Docker, Kubernetes                                                      
  Cloud-native frameworks                | Quarkus                                                                                    
  Distributed Systems Management         | Apache ZooKeeper, Apache Fabric                                                            
  Runtime Containers                     | Apache Karaf, Fuse container, Fabric container, A-MQ container                             
