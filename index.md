@@ -29,7 +29,7 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
 | Exam | Course Name | Secialization | College/Institution | Duration | Result% |
 | --- | --- |
 | Post Graduation | Masters in Computer Applications | Science | Sangola College,Sangola [Solapur University] | 07/2012 to 07/2014 | CGPA-A+ |
-| Graduation | Bachelor in Computer Applications | Commerce | Sangola College,Sangola [Solapur University] | 07/2008 to 07/2011 | 76.67% |
+| Graduation | Bachelor in Computer Applications | Commerce | Sangola College,Sangola [Solapur University] | 07/2008 to 07/2011 | 76.67% [Rank](http://sangolacollege.org/meritholders.php)|
 | 12th/HSC | Higher Secondary Certificate | Commerce | Vidya Mandir Junior College, Sangola | 07/2007 to 05/2008 | 78.17% |
 | 10th/SSC | Secondary School Certificate | NA | Shri. Sitaram Maharaj Vidyalaya, Khardi | 06/2005 to 06/2006 | 70.40% |
 
