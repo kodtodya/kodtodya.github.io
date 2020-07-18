@@ -50,6 +50,7 @@ OpenShift, SQL, jUnit and design patterns with efficient expertise in using tech
  Operating Systems Skills               | Red Hat Enterprise Linux-6+, CentOS-7+, Fedora-24+, Ubuntu-19+, Windows-X                   
  Unit & Automation Testing Skills       | Junit, Cucumber, Behavioral Driven Development, CodePro                                    
  Data Mapping Skills                    | XML, JSON                                                                                  
+ Security Encryption Tools              | PGP                                                                                        
  Other IDEs &amp; Troubleshooting Tools | IntelliJ, RedHat CodeReady Studio, Eclipse, IBM Integration Bus, Memory Analyzer Tool, Samurai                 
 
 For more details see [Work at GitHub Repository](https://github.com/kodtodya/).
