@@ -1,1 +1,28 @@
-theme: jekyll-theme-cayman
+# Dependencies
+#markdown:         redcarpet
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Avadhut Lele
+tagline:          'Portfolio'
+url:              https://kodtodya.github.io/
+
+author:
+  name:           'Avadhut Lele'
+  url:            https://twitter.com/kodtodya
+  linkedin:       kodtodya
+  github:         kodtodya
+  twitter:        kodtodya
+  facebook:       kodtodya
+  instagram:      kodtodya
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+plugins: 
+  - jekyll-paginate
+  - jekyll-gist

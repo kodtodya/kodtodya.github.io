@@ -1,40 +1,16 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <title>Avadhut Lele | Profile</title>
-  <head>
+<html lang="en-us">
 
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
+  {% include head.html %}
 
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <meta name="google-site-verification" content="gELplzVAfcCVIIYYiBGFhMub0tIqCv_cjnV-m5-rD4k" />
-  </head>
   <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">Avadhut Lele</h1>
-      <h2 class="project-tagline">Senior Integration Developer, Consultant and Middleware Engineer</h2>
-      <h3><a href="mailto:kodtodya@gmail.com" style="text-decoration:none;color:#FFFFFF">kodtodya@gmail.com</a> | <a href="tel:+91-82-3737-9497" style="text-decoration:none;color:#FFFFFF">+91-8237379497</a></h3>
-      <h4"><a href="https://github.com/kodtodya" style="text-decoration:none;color:#FFFFFF">https://github.com/kodtodya</a> | <a href="https://www.linkedin.com/in/kodtodya" style="text-decoration:none;color:#FFFFFF">www.linkedin.com/in/kodtodya</a></h4>
-    </header>
 
-    <main id="content" class="main-content" role="main">
+    {% include sidebar.html %}
+
+    <div class="content container">
       {{ content }}
+    </div>
 
-      <footer class="site-footer">
-        <span class="site-footer-credits">©2019-2021 by <a href="https://kodtodya.github.io">kodtodya</a>.</span>
-      </footer>
-    </main>
+    {% include google_analytics.html %}
   </body>
 </html>
