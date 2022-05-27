@@ -1,17 +1,125 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
-   <body class="body-class">
-      <div class="introduction">
-         <h1>Hello, I am Avadhut!</h1>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Java and Integration Developer | Master in Computer Applications">
+  <meta name="author" content="Avadhut Lele <https://kodtodya.github.io>">
+
+  <title>Portfolio - Avadhut Lele</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+<link href="static/css/resume.css" rel="stylesheet">
+  <link href="static/css/custom.css" rel="stylesheet">
+  <link href="static/css/hyde.css" rel="stylesheet">
+  <link href="static/css/poole.css" rel="stylesheet">
+  <link href="static/css/syntax.css" rel="stylesheet">
+  <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon">
+</head>
+
+<script type="text/javascript">
+var app = document.getElementById('app');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('I am a Coder')
+    .pauseFor(2500)
+    .deleteChars(7)
+    .typeString('an Investor')
+    .pauseFor(2500)
+    .deleteChars(11)
+    .typeString('Minimalist')
+    .pauseFor(2500)
+    .deleteChars(10)
+    .typeString('Music Lover')
+    .pauseFor(2500)
+    .deleteChars(11)
+    .start();
+</script>
+
+<body id="page-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none text-white">Avadhut Lele</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="static/img/profile.JPG" alt="">
+      </span>
+    </a>
+
+    <div id="contact-list1" style="text-align:center">
+        <!-- contact icons go here -->
+          <a href="https://github.com/kodtodya" target="_blank">
+              <span class="fa-stack fa-medium text-white">
+                  <i class="fab fa-github fa-stack-2x"></i>
+              </span>
+          </a>
+          <a href="https://www.linkedin.com/in/kodtodya" target="_blank">
+              <span class="fa-stack fa-medium text-white">
+                  <i class="fab fa-linkedin fa-stack-2x"></i>
+              </span>
+          </a>
+          <a href="https://www.twitter.com/kodtodya" target="_blank">
+              <span class="fa-stack fa-medium text-white">
+                  <i class="fab fa-twitter fa-stack-2x"></i>
+              </span>
+          </a>
       </div>
-      <p>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="sidebar-about">
+      <h1> <a class="name" href="https://kodtodya.github.io/"> Avadhut Lele </a> </h1>
+       <p class="me"><div id="app"></div></p>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Achievements</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <div class="introduction"> <h1>Hello, I am Avadhut!</h1> </div>
+
+        <p>
          Welcome to this corner of world wide web. I believe if we all strive to leave our community better than we found it; this world would be a fantastic place to live.
       </p>
-      <p> 
+      <p>
          Everyday I look for ways to empower people by building software. Yes, you got me! I'm a <b>software developer</b> and often resonate to the word <b>"GEEK"</b> (by definition). I am originally from the India's most livable and beautiful city <b>Pune</b>, I call Pune as my home.
       </p>
       <p>
@@ -27,35 +135,409 @@ title: Home
          Want to join this technology joyride with me?
          Well, hop on, let's connect!
       </p>
+
       <div id="contact-list1" style="text-align:center">
-      <a href="https://github.com/{{ site.author.github }}" target="_blank">
-          <span class="fa-stack fa-medium">
-              <i class="fab fa-github fa-stack-2x"></i>
-          </span>
-      </a>
-      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">
-          <span class="fa-stack fa-medium">
-              <i class="fab fa-linkedin fa-stack-2x"></i>
-          </span>
-      </a>
-      <a href="https://www.twitter.com/{{ site.author.twitter }}" target="_blank">
-          <span class="fa-stack fa-medium">
-              <i class="fab fa-twitter fa-stack-2x"></i>
-          </span>
-      </a>
-      <a href="https://www.facebook.com/{{ site.author.facebook }}" target="_blank">
-          <span class="fa-stack fa-medium">
-              <i class="fab fa-facebook fa-stack-2x"></i>
-          </span>
-      </a>
-      <a href="https://www.instagram.com/{{ site.author.instagram }}" target="_blank">
-          <span class="fa-stack fa-medium">
-              <i class="fab fa-instagram fa-stack-2x"></i>
-          </span>
-      </a>      
-      
+
+          <a href="https://github.com/kodtodya" target="_blank">
+              <span class="fa-stack fa-medium">
+                  <i class="fab fa-github fa-stack-2x"></i>
+              </span>
+          </a>
+          <a href="https://www.linkedin.com/in/kodtodya" target="_blank">
+              <span class="fa-stack fa-medium">
+                  <i class="fab fa-linkedin fa-stack-2x"></i>
+              </span>
+          </a>
+          <a href="https://www.twitter.com/kodtodya" target="_blank">
+              <span class="fa-stack fa-medium">
+                  <i class="fab fa-twitter fa-stack-2x"></i>
+              </span>
+          </a>
+          <a href="https://www.facebook.com/kodtodya" target="_blank">
+              <span class="fa-stack fa-medium">
+                  <i class="fab fa-facebook fa-stack-2x"></i>
+              </span>
+          </a>
+          <a href="https://www.instagram.com/kodtodya" target="_blank">
+              <span class="fa-stack fa-medium">
+                  <i class="fab fa-instagram fa-stack-2x"></i>
+              </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="mb-3">Programming Languages &amp; Tools & Libraries</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/java/java-horizontal.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://cdn.worldvectorlogo.com/logos/c.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://img.icons8.com/dusk/344/scala.png"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/php/php-horizontal.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="30" src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="30"src="https://www.vectorlogo.zone/logos/postgresql/postgresql-horizontal.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/mariadb/mariadb-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/jetbrains/jetbrains-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://img.icons8.com/color/344/intellij-idea.png"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://img.icons8.com/color/344/pycharm.png"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://img.icons8.com/fluent/344/visual-studio-2019.png"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://img.icons8.com/color/344/teradata.png"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://upload.wikimedia.org/wikipedia/commons/b/b6/PuTTY_icon_128px.png"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://upload.wikimedia.org/wikipedia/commons/d/de/WinSCP_Logo.png"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://cdn.worldvectorlogo.com/logos/sublime-text.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/vim/vim-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://img.icons8.com/color/344/notepad-plus-plus.png"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/UltraEditLogo.png"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/apache/apache-official.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="30" src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg"></i>
+          </li>
+           <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/opensource/opensource-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/redhat/redhat-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/gnu/gnu-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/gnome/gnome-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/bitbucket/bitbucket-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/gitlab/gitlab-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/ubuntu/ubuntu-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/centos/centos-ar21.svg"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab"><img height="50" src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"></i>
+          </li>
+        </ul>
+        <div class="mb-3">Core Skills</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Data Processing,Clensing from different sources and loading into Target Tables
+          </li>
+          <li>
+              <i class="fa-li fa fa-check"></i>
+              Data pipeline development and deployment
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Data Streaming using Kafka
+        </li>
+        <li>
+          <i class="fa-li fa fa-check"></i>
+          Designing an ETL pipeline using informatica
+      </li>
+
+          <li>
+              <i class="fa-li fa fa-check"></i>
+              Object Oriented Programming ( Oops)
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Open source contribution
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            API Integration
+          </li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Web scraping and web automation
+          </li>
+
+          <li>
+        </ul>
+      </div>
+    </section>
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Technical Lead (Integration)</h3>
+            <div class="mb-3">Patona Digital</div>
+            <p>Working on the Product Development team(Integration Services).
+               Which enables the communication between different entities within the system using the REST APIs.
+               This will enable the data movement across different platforms using the event streaming platform (Apache Kafka).
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2020 - Present</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Manager (Technical)</h3>
+            <div class="mb-3">Citi Bank</div>
+            <p>Working on Medicare/Medicaid team initiative to have clinical intervention data ,core administrative data(membership, claims ,provider data),
+              CMS originated data from different data warehouse so that they can maximize Medicare revenue and reduce the Medicare administrative costs.
+              Contributed towards Building Big Data Pipelines and Data Transformation using Spark thus increasing the productivity.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2018 - Feb 2020</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Software Maintenance Engineer</h3>
+            <div class="mb-3">Redhat Inc</div>
+            <p>Working on Teradata Database and Data Integration Tool (INFORMATICA)  for Reducing the MEDICARE Administration costs.
+            Pulling the data from different functional areas and loading it to hive.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">June 2016 - May 2018</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Senior Applications Developer</h3>
+            <div class="mb-3">BNY Mellon Technologies</div>
+            <p>Working on Teradata Database and Data Integration Tool (INFORMATICA)  for Reducing the MEDICARE Administration costs.
+            Pulling the data from different functional areas and loading it to hive.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Jan 2015 - May 2016</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Senior Software Engineer</h3>
+            <div class="mb-3">IGATE Global Solutions Limited</div>
+            <p>Working on Teradata Database and Data Integration Tool (INFORMATICA)  for Reducing the MEDICARE Administration costs.
+            Pulling the data from different functional areas and loading it to hive.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Sept 2011 - Dec 2014</span>
+          </div>
+        </div>
+    </section>
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3>Masters in Computer Applications</h3>
+            <div class="mb-3">Solapur University, Solapur</div>
+            <div></div>
+            <p></p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2011 - 2015</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3>Bachelor in Computer Applications</h3>
+            <div class="mb-3">Solapur University, Solapur</div>
+            <div></div>
+            <p></p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2008 - 2011</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3>Higher Secondary Certificate [Commerce]</h3>
+            <div class="mb-3">Vidya Mandir Junior College, Sangola</div>
+            <div></div>
+            <p></p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2006-2008</span>
+          </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3>Secondary School Certificate</h3>
+            <div class="mb-3">Shri. Sitaram Maharaj Vidyalaya, Khardi</div>
+            <div></div>
+            <p></p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2005-2006</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Fuse Training Examples</h5>
+                    <p class="card-text">Training examples for Fuse Rapid Track Training.</p>
+                    <a href="https://github.com/kodtodya/fuse-7-spring-boot-examples" class="btn btn-primary">Go To Project</a>
+                    <p>
+                      <span class="badge badge-pill badge-secondary">Java</span>
+                      <span class="badge badge-pill badge-secondary">Spring</span>
+                      <span class="badge badge-pill badge-secondary">Spring Boot</span>
+                      <span class="badge badge-pill badge-secondary">Apache Camel</span>
+                      <span class="badge badge-pill badge-secondary">Optimised</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Spring Boot Training Examples</h5>
+                    <p class="card-text">Training Examples for Spring Boot Rapid Track Training</p>
+                    <a href="https://github.com/kodtodya/spring-boot-examples" class="btn btn-primary">Go To Project</a>
+                    <p>
+                      <span class="badge badge-pill badge-secondary">Java</span>
+                      <span class="badge badge-pill badge-secondary">Spring</span>
+                      <span class="badge badge-pill badge-secondary">Spring Boot</span>
+                      <span class="badge badge-pill badge-secondary">Conversion</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+    </section>
+    <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">ACHIEVEMENTS &amp; ACCOLADES</h2>
+        <ul class="fa-ul mb-0">
+
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Pat on the Back Award from iGATE for SQL script generation tool
+          </li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Quarterly Award from iGATE for outstanding performance.
+          </li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Customer Multiplier Award from RedHat for quick troubleshooting of production systems.
+          </li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Quarterly Award from Citi Bank for automation using BDD.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div class="container">
+    <p class="small float-right">Built with <i class="fas fa-heart text-danger"></i> by <a href="#" target="_blank">kodtodya</a>, under MIT License.</p>
+    </div>
   </div>
-   </body>
-   
-   <script type="text/javascript" src="{{ '/' | relative_url  }}public/js/custom.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="static/vendor/jquery/jquery.min.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="static/js/resume.min.js"></script>
+</body>
 </html>
