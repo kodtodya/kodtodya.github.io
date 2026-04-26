@@ -16,12 +16,11 @@ export default function About() {
       <div className="section-wrap">
         <div className="section-label">About</div>
         <h2 className="section-title reveal">Hello, I'm Avadhut</h2>
-        <p className="section-subtitle reveal d1">
-          A software developer and proud geek based in Pune — India's most livable city.
-        </p>
-
         <div className="about-grid">
           <div className="about-text-col reveal d1">
+            <p className="section-subtitle reveal d1">
+              A software developer and proud geek based in Pune — India's most livable city.
+            </p>
             <p>
               Welcome to this corner of the world wide web. I believe if we all strive to leave our
               community better than we found it, this world would be a fantastic place to live.
