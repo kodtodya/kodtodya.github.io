@@ -2,9 +2,10 @@
 
 Personal portfolio website for Avadhut Lele, Solutions Architect & Middleware Integration Developer.
 
-Styled after [chanmeng.org](https://chanmeng.org) — clean card-based layout, bento grid hero, typewriter animation, light/dark mode.
+Styled with clean card-based layout, bento grid hero, typewriter animation, light/dark mode. check out at: [https://kodtodya.github.io](https://kodtodya.github.io)
 
 ## Stack
+
 - React 18
 - CSS Variables (light/dark theme)
 - Google Fonts: Inter + JetBrains Mono
