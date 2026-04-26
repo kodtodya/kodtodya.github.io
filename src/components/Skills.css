@@ -1,0 +1,28 @@
+.skills-section { background: var(--bg-secondary); }
+
+.skills-bento {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.skill-card-header {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 14px;
+}
+
+.skill-card-icon {
+  width: 34px; height: 34px; border-radius: 8px;
+  background: var(--bg-secondary); border: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; flex-shrink: 0;
+}
+
+.skill-card-name {
+  font-size: 13px; font-weight: 600; color: var(--text-primary);
+}
+
+.skill-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+
+@media (max-width: 480px) {
+  .skills-bento { grid-template-columns: 1fr; }
+}

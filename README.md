@@ -1,9 +1,49 @@
-Developed this personal website on github pages.The website is built on top of Hyde, which is 2 column Jekyll theme using html, css and javascript.
+# Avadhut Lele — Portfolio
 
-![alt text](https://raw.githubusercontent.com/kodtodya/kodtodya.github.io/master/public/assets/readme.png)
+Personal portfolio website for Avadhut Lele, Solutions Architect & Middleware Integration Developer.
 
-## License
+Styled after [chanmeng.org](https://chanmeng.org) — clean card-based layout, bento grid hero, typewriter animation, light/dark mode.
 
-Open sourced under the [MIT license](LICENSE.md).
+## Stack
+- React 18
+- CSS Variables (light/dark theme)
+- Google Fonts: Inter + JetBrains Mono
+- gh-pages for deployment
 
-<3
+## Local Development
+
+```bash
+npm install
+npm start
+```
+
+Opens at [http://localhost:3000](http://localhost:3000)
+
+## Deploy to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+Builds and pushes to the `gh-pages` branch automatically.
+
+## File Structure
+
+```
+src/
+  components/
+    Nav.js / Nav.css           — Fixed top nav + mobile drawer
+    Hero.js / Hero.css         — Bento grid hero + typewriter
+    About.js / About.css       — Two-column about section
+    Experience.js / Exp.css    — Accordion timeline
+    Skills.js / Skills.css     — Bento grid skill cards
+    Education.js / Edu.css     — Education cards
+    Blog.js / Blog.css         — Blog post cards
+    HireMe.js / HireMe.css     — Offerings + contact form
+    Footer.js / Footer.css     — Clean footer
+    ScrollProgress.js          — Top scroll progress bar
+  hooks/
+    useScrollReveal.js         — IntersectionObserver reveal
+  App.js / App.css             — Theme, layout, design tokens
+  index.js / index.css         — Entry point + reset
+```

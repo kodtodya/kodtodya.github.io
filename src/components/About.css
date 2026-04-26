@@ -1,0 +1,42 @@
+.about-section { background: var(--bg-secondary); }
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 64px;
+  align-items: start;
+}
+
+.about-text-col p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.85;
+  margin-bottom: 18px;
+}
+
+.about-links { display: flex; gap: 10px; margin-top: 8px; }
+
+.about-link {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-size: 13px; font-weight: 600; color: var(--text-primary);
+  background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: 8px; padding: 7px 14px; text-decoration: none;
+  transition: border-color .2s, background .2s;
+}
+.about-link:hover { border-color: var(--accent); color: var(--accent); }
+
+.about-interests-col {
+  display: flex; flex-direction: column; gap: 10px;
+}
+
+.about-interest-card {
+  display: flex; align-items: flex-start; gap: 14px;
+}
+
+.ai-icon { font-size: 20px; flex-shrink: 0; margin-top: 2px; }
+.ai-title { font-size: 14px; font-weight: 600; color: var(--text-primary); margin-bottom: 2px; }
+.ai-desc  { font-size: 12.5px; color: var(--text-secondary); }
+
+@media (max-width: 768px) {
+  .about-grid { grid-template-columns: 1fr; gap: 40px; }
+}
