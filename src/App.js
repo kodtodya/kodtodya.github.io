@@ -13,11 +13,11 @@ import ScrollProgress from './components/ScrollProgress';
 import './App.css';
 
 export default function App() {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   useEffect(() => {
     const saved = localStorage.getItem('theme');
-    if (saved === 'dark') setDark(true);
+    if (saved === 'light') setDark(false);
   }, []);
 
   useEffect(() => {
