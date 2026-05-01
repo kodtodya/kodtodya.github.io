@@ -16,9 +16,10 @@ const WORDS = [
 
 const STATS = [
   { value: '14+', label: 'Years Experience' },
-  { value: '6',   label: 'Companies' },
   { value: '20+', label: 'Technologies' },
+  { value: '100+',   label: 'Corporate Trainings' },
   { value: '∞',   label: 'Coffee Cups' },
+  { value: '6',   label: 'Companies' },
 ];
 
 export default function Hero() {
@@ -97,7 +98,7 @@ export default function Hero() {
           <div className="bento-card bento-stack">
             <div className="bento-label">Core Stack</div>
             <div className="bento-chips">
-              {['Java', 'GoLang', 'Python', 'Camel', 'Spring Boot', 'Kafka', 'React', 'OpenShift'].map(t => (
+              {['Solutions Architecture', 'RAG', 'AI', 'Java', 'GoLang', 'Microservices', 'Apache Camel', 'Spring Boot', 'Kafka', 'React', 'OpenShift'].map(t => (
                 <span key={t} className="bento-chip">{t}</span>
               ))}
             </div>

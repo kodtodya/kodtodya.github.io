@@ -52,13 +52,26 @@
 }
 
 .nav-theme {
-  width: 34px; height: 34px; border-radius: 8px;
+  min-width: 44px; min-height: 44px; width: 44px; height: 44px; border-radius: 8px;
   background: var(--bg-secondary); border: 1px solid var(--border);
   color: var(--text-secondary); cursor: pointer;
   display: flex; align-items: center; justify-content: center;
   transition: background .15s, color .15s;
+  -webkit-tap-highlight-color: transparent;
 }
 .nav-theme:hover { background: var(--bg-hover); color: var(--text-primary); }
+
+/* Drawer theme toggle (mobile only) */
+.nav-drawer-theme {
+  display: flex; align-items: center; gap: 10px;
+  padding: 14px 24px; font-size: 15px; font-weight: 500;
+  color: var(--text-primary); background: none; border: none;
+  border-bottom: 1px solid var(--border);
+  width: 100%; text-align: left; cursor: pointer;
+  transition: background .15s;
+  -webkit-tap-highlight-color: transparent;
+}
+.nav-drawer-theme:hover { background: var(--bg-hover); }
 
 .nav-cta {
   padding: 7px 18px; border-radius: 8px;

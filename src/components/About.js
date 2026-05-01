@@ -18,7 +18,7 @@ export default function About() {
         <h2 className="section-title reveal">Hello, I'm Avadhut</h2>
         <div className="about-grid">
           <div className="about-text-col reveal d1">
-            <p className="section-subtitle reveal d1">
+            <p className="section-subtitle reveal d1" style={{ color: '#ff9933' }}>
               A software developer and proud geek based in Pune — India's most livable city.
             </p>
             <p>

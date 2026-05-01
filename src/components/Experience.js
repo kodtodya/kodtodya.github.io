@@ -62,7 +62,7 @@ export default function Experience() {
       <div className="section-label">Experience</div>
       <h2 className="section-title reveal">Career Chronicle</h2>
       <p className="section-subtitle reveal d1">
-        10+ years across financial services, enterprise software, and open-source middleware.
+        14+ years across financial services, enterprise software, and open-source middleware.
       </p>
 
       <div className="exp-list">

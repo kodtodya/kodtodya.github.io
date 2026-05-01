@@ -8,7 +8,7 @@ const CERTS = [
     title: 'AWS Certified Solutions Architect – Associate',
     issuer: 'Amazon Web Services',
     date: '2026',
-    url: null,
+    url: 'https://www.credly.com/badges/103a3a5a-8d12-40a9-86e0-311c0df85d8f',
   },
   {
     icon: '☕',
@@ -37,16 +37,33 @@ export default function Certifications() {
       </p>
 
       <div className="cert-grid">
-        {CERTS.map((c, i) => (
-          <div key={c.title} className={`card card--lift reveal d${i + 1}`}>
-            <div className="cert-icon">{c.icon}</div>
-            <div className="cert-title">{c.title}</div>
-            <div className="cert-issuer">{c.issuer}</div>
-            <div className="cert-footer">
-              <span className="cert-date">{c.date}</span>
+        {CERTS.map((c, i) => {
+          const inner = (
+            <>
+              <div className="cert-icon">{c.icon}</div>
+              <div className="cert-title">{c.title}</div>
+              <div className="cert-issuer">{c.issuer}</div>
+              <div className="cert-footer">
+                <span className="cert-date">{c.date}</span>
+              </div>
+            </>
+          );
+          return c.url ? (
+            <a
+              key={c.title}
+              href={c.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`card card--lift reveal d${i + 1} cert-card-link`}
+            >
+              {inner}
+            </a>
+          ) : (
+            <div key={c.title} className={`card card--lift reveal d${i + 1}`}>
+              {inner}
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );
