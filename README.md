@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Avadhut Lele — Scrollytelling Portfolio
 
-## Getting Started
+> High-end personal portfolio with scroll-linked canvas animation, parallax overlays, and glassmorphism project cards.
 
-First, run the development server:
+**Live site:** [kodtodya.github.io](https://kodtodya.github.io)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## Stack
+
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animation | Framer Motion |
+| Canvas | HTML5 Canvas (150-frame WebP sequence) |
+| Fonts | Inter + JetBrains Mono (via `next/font`) |
+| Deploy | GitHub Pages (static export via GitHub Actions) |
+
+---
+
+## Project Structure
+
+```
+├── app/
+│   ├── components/
+│   │   ├── ScrollyCanvas.tsx   ← 500vh sticky canvas + scroll-driven overlays
+│   │   ├── Nav.tsx             ← Fixed nav with scroll-hide + mobile drawer
+│   │   ├── Projects.tsx        ← Glassmorphism POC/project cards
+│   │   ├── About.tsx           ← Bio, skills (8 categories), stats
+│   │   ├── Experience.tsx      ← Career timeline (6 roles)
+│   │   ├── Contact.tsx         ← Email copy + social links
+│   │   └── Footer.tsx          ← Dark minimal footer
+│   ├── globals.css             ← Dark theme (#121212), glass utilities
+│   ├── layout.tsx              ← Metadata, fonts
+│   └── page.tsx                ← Page assembly
+├── public/
+│   └── sequence/               ← 150 WebP frames (frame_000…frame_149)
+├── .github/
+│   └── workflows/
+│       └── deploy.yml          ← CI/CD: build → GitHub Pages
+├── next.config.mjs             ← output: 'export' (static)
+└── tailwind.config.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Local Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
+Opens at [http://localhost:3000](http://localhost:3000). Hot-reload is enabled — edit any file under `app/` and the browser updates instantly.
 
-To learn more about Next.js, take a look at the following resources:
+> **Note:** If you see a white page after running `npm run build` followed by `npm run dev`, clear the stale cache first:
+> ```bash
+> rm -rf .next && npm run dev
+> ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deploy to GitHub Pages
 
-## Deploy on Vercel
+This project is configured for **automated deployment** to GitHub Pages via GitHub Actions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### One-time setup (do this once in the GitHub repo settings)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Go to your repository on GitHub
+2. Navigate to **Settings → Pages**
+3. Under **Build and deployment**, set the **Source** to **`GitHub Actions`** (not the legacy `gh-pages` branch option)
+4. Save
+
+That's it. No branch configuration needed — the workflow handles everything.
+
+### How it works
+
+Every push to `master` (or `main`) triggers `.github/workflows/deploy.yml`:
+
+```
+Push to master
+    ↓
+GitHub Actions: ubuntu-latest
+    ↓
+npm ci
+    ↓
+npm run build          ← Next.js static export → /out directory
+    ↓
+actions/upload-pages-artifact   ← uploads /out
+    ↓
+actions/deploy-pages            ← deploys to https://kodtodya.github.io
+```
+
+### Manual trigger
+
+You can also trigger a deploy manually from the **Actions** tab → select **"Deploy Next.js to GitHub Pages"** → **Run workflow**.
+
+### Build locally (verify before pushing)
+
+```bash
+npm run build
+# Static output will be in the /out directory
+```
+
+Verify the `/out` folder contains `index.html` before pushing.
+
+---
+
+## Key Architecture Notes
+
+### Canvas Scrollytelling
+- The `ScrollyCanvas` component creates a `500vh` container — 5x the viewport height gives a long, cinematic scroll
+- `useScroll({ target: containerRef })` from Framer Motion tracks scroll progress (0 → 1)
+- 150 WebP frames are preloaded in **batches** (10 → 40 → 100) to avoid blocking the browser
+- Frame index = `Math.floor(progress × 149)` — quantized per scroll tick
+- All canvas redraws go through `requestAnimationFrame` for 60fps performance
+- **Cover-fit logic** replicates CSS `object-fit: cover` — image always fills the viewport regardless of aspect ratio
+
+### Overlay Text Visibility
+- Text overlays are driven by **imperative DOM manipulation** (`element.style.opacity`) via `scrollYProgress.on('change', ...)`
+- `visibility: hidden` is set as soon as `opacity < 0.01` — prevents GPU compositing of invisible layers, zero bleed-through between sections
+
+### Static Export
+- `next.config.mjs` uses `output: 'export'` for GitHub Pages compatibility
+- `images: { unoptimized: true }` — required for static export (no Next.js image optimization server)
+- `trailingSlash: true` — required for gh-pages path resolution
+
+---
+
+## License
+
+MIT
