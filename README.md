@@ -8,15 +8,15 @@
 
 ## Stack
 
-| Layer | Technology |
-|---|---|
-| Framework | Next.js 14 (App Router) |
-| Language | TypeScript |
-| Styling | Tailwind CSS |
-| Animation | Framer Motion |
-| Canvas | HTML5 Canvas (150-frame WebP sequence) |
-| Fonts | Inter + JetBrains Mono (via `next/font`) |
-| Deploy | GitHub Pages (static export via GitHub Actions) |
+| Layer     | Technology                                      |
+| --------- | ----------------------------------------------- |
+| Framework | Next.js 14 (App Router)                         |
+| Language  | TypeScript                                      |
+| Styling   | Tailwind CSS                                    |
+| Animation | Framer Motion                                   |
+| Canvas    | HTML5 Canvas (150-frame WebP sequence)          |
+| Fonts     | Inter + JetBrains Mono (via `next/font`)        |
+| Deploy    | GitHub Pages (static export via GitHub Actions) |
 
 ---
 
@@ -56,6 +56,7 @@ npm run dev
 Opens at [http://localhost:3000](http://localhost:3000). Hot-reload is enabled — edit any file under `app/` and the browser updates instantly.
 
 > **Note:** If you see a white page after running `npm run build` followed by `npm run dev`, clear the stale cache first:
+>
 > ```bash
 > rm -rf .next && npm run dev
 > ```
@@ -111,6 +112,7 @@ Verify the `/out` folder contains `index.html` before pushing.
 ## Key Architecture Notes
 
 ### Canvas Scrollytelling
+
 - The `ScrollyCanvas` component creates a `500vh` container — 5x the viewport height gives a long, cinematic scroll
 - `useScroll({ target: containerRef })` from Framer Motion tracks scroll progress (0 → 1)
 - 150 WebP frames are preloaded in **batches** (10 → 40 → 100) to avoid blocking the browser
@@ -119,10 +121,12 @@ Verify the `/out` folder contains `index.html` before pushing.
 - **Cover-fit logic** replicates CSS `object-fit: cover` — image always fills the viewport regardless of aspect ratio
 
 ### Overlay Text Visibility
+
 - Text overlays are driven by **imperative DOM manipulation** (`element.style.opacity`) via `scrollYProgress.on('change', ...)`
 - `visibility: hidden` is set as soon as `opacity < 0.01` — prevents GPU compositing of invisible layers, zero bleed-through between sections
 
 ### Static Export
+
 - `next.config.mjs` uses `output: 'export'` for GitHub Pages compatibility
 - `images: { unoptimized: true }` — required for static export (no Next.js image optimization server)
 - `trailingSlash: true` — required for gh-pages path resolution
