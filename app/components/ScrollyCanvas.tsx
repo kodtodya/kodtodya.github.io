@@ -156,7 +156,7 @@ export default function ScrollyCanvas() {
             <span className="text-white">Lele</span>
           </h1>
           <p className="text-muted-2 text-sm sm:text-base max-w-md leading-relaxed">
-            14+ years crafting resilient middleware integration systems<br className="hidden sm:block" /> and cloud-native architectures.
+            15+ years crafting resilient middleware integration systems<br className="hidden sm:block" /> and cloud-native architectures.
           </p>
           <div className="mt-10 flex items-center gap-2 animate-bounce">
             <div className="w-[1px] h-8 bg-accent/50" />

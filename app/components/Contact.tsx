@@ -25,12 +25,12 @@ export default function Contact() {
 
       <div ref={ref} className="max-w-3xl mx-auto text-center relative z-10">
         <motion.div initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.7 }}>
-          <p className="font-mono text-xs tracking-[0.3em] text-accent uppercase mb-4">Want to Hire Me?</p>
+          <p className="font-mono text-xs tracking-[0.3em] text-accent uppercase mb-4">Let&apos;s Connect</p>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-black text-white leading-tight mb-4">
-            Open to new<br /><span className="text-gradient-cyan">opportunities.</span>
+            Got a complex<br /><span className="text-gradient-cyan">challenge?</span>
           </h2>
           <p className="text-muted-2 text-base leading-relaxed max-w-lg mx-auto mb-12">
-            Open to <strong className="text-white">consulting engagements</strong>, <strong className="text-white">full-time roles</strong>, and <strong className="text-white">technical training</strong> opportunities. Let&apos;s build something resilient together.
+            Whether you need a <strong className="text-white">technical sounding board</strong>, want to discuss <strong className="text-white">architecture patterns</strong>, or simply have a question — feel free to reach out. The right conversations tend to find the right outcomes.
           </p>
 
           {/* Email copy */}

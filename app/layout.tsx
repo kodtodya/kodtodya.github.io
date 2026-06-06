@@ -18,7 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Avadhut Lele — Solutions Architect",
   description:
-    "Solutions Architect with 14+ years building resilient middleware integration systems and cloud-native architectures. Apache Camel, Kafka, Kubernetes expert based in Pune, India.",
+    "Solutions Architect with 15+ years building resilient middleware integration systems and cloud-native architectures. Apache Camel, Kafka, Kubernetes expert based in Pune, India.",
   keywords: [
     "Avadhut Lele",
     "Solutions Architect",
@@ -37,13 +37,13 @@ export const metadata: Metadata = {
     url: "https://kodtodya.github.io",
     title: "Avadhut Lele — Solutions Architect",
     description:
-      "14+ years crafting resilient middleware integration systems and cloud-native architectures.",
+      "15+ years crafting resilient middleware integration systems and cloud-native architectures.",
     siteName: "Avadhut Lele Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Avadhut Lele — Solutions Architect",
-    description: "14+ years crafting resilient middleware integration systems and cloud-native architectures.",
+    description: "15+ years crafting resilient middleware integration systems and cloud-native architectures.",
   },
   robots: {
     index: true,

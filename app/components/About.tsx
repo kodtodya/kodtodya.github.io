@@ -16,7 +16,7 @@ const SKILLS = [
 ];
 
 const STATS = [
-  { value: '14+', label: 'Years of Experience' },
+  { value: '15+', label: 'Years of Experience' },
   { value: '20+', label: 'Technologies Mastered' },
   { value: '50k+', label: 'Daily Transactions Handled' },
   { value: '100%', label: 'Open-Source Advocate' },
